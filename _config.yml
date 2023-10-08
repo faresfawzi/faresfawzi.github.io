@@ -1,4 +1,5 @@
 title: Software Engineer 
 logo: /assets/img/headshot.png
 show_downloads: ture
-theme: flexible-jekyll
+# theme: flexible-jekyll
+remote_theme: poole/hyde
