@@ -3,4 +3,3 @@ logo: /assets/img/headshot.png
 show_downloads: ture
 # theme: flexible-jekyll
 remote_theme: faresfawzi/hyde
-baseurl: 'https://faresfawzi.github.io/hyde/'
