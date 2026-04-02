@@ -12,7 +12,7 @@ profile:
   image_circular: false
 
 selected_papers: false
-social: true # includes social icons at the bottom of the page
+social: false
 
 announcements:
   enabled: true # includes a list of news items
@@ -25,7 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in Computer Science at EPFL in the ML4ED Lab, supervised by Prof. Tanja Kaeser. My work focuses on interpretability and controllability of language models for EdTech and Human-centric applications.
+I am a Ph.D. student in Computer Science at EPFL in the ML4ED Lab, supervised by Prof. Tanja Kaeser. My work
+focuses on interpretability and controllability of language models for EdTech and Human-centric applications.
 
 Email: [fares.fawzi@epfl.ch](mailto:fares.fawzi@epfl.ch)  
 Location: Lausanne, Switzerland  
@@ -53,4 +54,3 @@ CV: [PDF](/fares_CV_2026-2.pdf)
 
 - SwissAI Initiative Fellowship
 - EPFL EDIC Fellowship
-
