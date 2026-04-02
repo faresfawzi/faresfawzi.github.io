@@ -21,8 +21,11 @@
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% social_links %}</div>
+        <div class="navbar-brand social">
+          {% if site.data.socials.email %}
+            <a href="mailto:{{ site.data.socials.email }}">email</a>
+          {% endif %}
+        </div>
       {% endif %}
       <!-- Navbar Toggle -->
       <button
