@@ -22,9 +22,7 @@
         </a>
       {% elsif site.enable_navbar_social %}
         <div class="navbar-brand social">
-          {% if site.data.socials.email %}
-            <a href="mailto:{{ site.data.socials.email }}">email</a>
-          {% endif %}
+          {% social_links %}
         </div>
       {% endif %}
       <!-- Navbar Toggle -->

@@ -15,42 +15,26 @@ selected_papers: false
 social: false
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 4 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 6
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-I am a Ph.D. student in Computer Science at EPFL in the ML4ED Lab, supervised by Prof. Tanja Kaeser. My work
-focuses on interpretability and controllability of language models for EdTech and Human-centric applications.
+I am a Ph.D. student in Computer Science at EPFL in the [ML4ED Lab](https://ml4ed.epfl.ch), supervised by Prof. Tanja Käser. My research focuses on building language models that are safe, controllable, interpretable, and useful in real educational settings. Before joining EPFL, I completed my M.Sc. in Data Science and Machine Learning at UCL with Distinction, where I worked on intelligent multi-agent systems with UCL and [InformedAI](https://informed.ai), and later worked at InformedAI as a machine learning engineer.
 
-Email: [fares.fawzi@epfl.ch](mailto:fares.fawzi@epfl.ch)  
-Location: Lausanne, Switzerland  
-CV: [PDF](/fares_CV_2026-2.pdf)
+I am broadly interested in AI systems that amplify human potential rather than replace human creativity. I believe the most meaningful role of AI is to help people learn, explore ideas, and act on ambitions they may not yet have the confidence, support, or technical know-how to pursue. In education, this means designing AI systems that help teachers create richer learning experiences and help students access more personalised, actionable, and empowering support.
+
+My work sits at the intersection of AI for Education, human-centred AI, model controllability, interpretability, and small language models. I build interactive LLM systems that can generate feedback, answer student questions, reason with tools, and adapt to pedagogical needs while remaining grounded, trustworthy, and deployable in real classrooms. In [SCRIBE](/publications/#fawzi2025scribe), I developed small tool-augmented models for interactive student feedback that can match much larger models in relevance and actionability. In [REFINE](/publications/#fawzi2026refine), I extended this direction into a multi-agent feedback system deployed with real undergraduate students, studying how students engage with AI-generated feedback and how such systems shape follow-up learning behaviour.
 
 ## Research Interests
 
-- LLM interpretability
-- Controllability and reasoning
-- Human-centered AI and alignment
-- Small language models
+- **AI for Education** I design LLM-based systems that support teachers and help students learn more effectively through personalised feedback, tutoring, and pedagogically grounded dialogue.
 
-## Education
+- **Safe, controllable, and interpretable LLMs** I explore training and steering methods that make LLMs more aligned with human goals. I use techniques such as mechanistic interpretability to understand internal model representations and to explain, control, and improve reasoning and pedagogical behaviour.
 
-- Ph.D. in Computer Science, EPFL, 2024 to present
-- M.Sc. in Data Science and Machine Learning, University College London, Distinction, 2022
-
-## Experience
-
-- Ph.D. Researcher, ML4ED Lab, EPFL
-- Research Assistant, UCL AI Centre
-- Machine Learning Engineer, InformedAI
-
-## Fellowships
-
-- SwissAI Initiative Fellowship
-- EPFL EDIC Fellowship
+- **Small and deployable language models** I work on making capable educational AI systems practical, privacy-aware, and locally deployable through small open-source models, tool use, and model distillation.
