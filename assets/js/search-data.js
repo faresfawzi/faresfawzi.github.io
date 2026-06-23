@@ -23,27 +23,41 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-my-ph-d-at-epfl",
-          title: 'Started my Ph.D. at EPFL',
+            },},{id: "news-started-my-ph-d-at-epfl-in-the-ml4ed-lab",
+          title: '🚀 Started my Ph.D. at EPFL in the ML4ED Lab.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2024-09-01-phd-start/";
-            },},{id: "news-scribe-accepted-at-emnlp-2025",
-          title: 'SCRIBE accepted at EMNLP 2025',
+          section: "News",},{id: "news-scribe-accepted-at-emnlp-2025-main-conference",
+          title: '🎉 SCRIBE accepted at EMNLP 2025 (main conference).',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025-10-01-emnlp/";
-            },},{id: "news-refine-accepted-at-aied-2026",
-          title: 'REFINE accepted at AIED 2026',
+          section: "News",},{id: "news-refine-accepted-at-aied-2026",
+          title: '🎉 REFINE accepted at AIED 2026',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-01-01-aied/";
-            },},{id: "projects-project-1",
+            },},{id: "news-attending-festival-of-learning-2026-in-seoul-korea-june-27-july-3",
+          title: '🇰🇷 🎓Attending Festival of Learning 2026 in Seoul, Korea (June 27–July 3).',
+          description: "",
+          section: "News",},{id: "news-presenting-refine-at-aied-2026",
+          title: '🎤 Presenting REFINE at AIED 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-06-29-refine-aied/";
+            },},{id: "news-attending-icml-2026-in-seoul-korea-july-6-11",
+          title: '🇰🇷 Attending ICML 2026 in Seoul, Korea (July 6–11).',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
