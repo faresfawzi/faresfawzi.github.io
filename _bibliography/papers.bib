@@ -1,6 +1,19 @@
 ---
 ---
 
+@inproceedings{fawzi2026pivotpreferencebasedinterventionvectors,
+  title = {PIVOT: Preference-based Intervention Vectors for Pedagogical Tutor Steering},
+  author = {Fawzi, Fares and Zhao, Jiaxu and Nazaretsky, Tanya and K{\"a}ser, Tanja},
+  month = jun,
+  note = {Pre-print},
+  url = {https://arxiv.org/abs/2608.07509},
+  pdf = {https://arxiv.org/pdf/2608.07509},
+  year = {2026},
+  preview = {pivot.png},
+  abstract = {LLMs are increasingly used for conversational tutoring, but effective tutoring requires more than correct answers. Tutors must choose when to scaffold reasoning, hint, give feedback, explain, or invite reflection. Existing prompting and training methods improve pedagogical alignment, but lack reliable inference-time control over pedagogical strategies. We introduce PIVOT, an activation-steering framework that learns preference-based intervention vectors online for frozen LLM tutors. PIVOT uses a seven-category tutor-move taxonomy and a generate-label-optimise loop, where a human-validated LLM judge identifies target and confusable non-target moves to construct preference pairs for multi-layer residual-stream steering. Across held-out and out-of-domain tutoring data, PIVOT controls tutor moves while preserving relevance and fluency, and its directions can be scaled, transferred, and composed at inference time. In a user study with 30 teachers, 73.3% of participants preferred steered conversations over neutral baseline interactions using the same prompt, and rated the controls as clear, usable, and pedagogically meaningful.}
+}
+
+
 @inproceedings{fawzi2026refine,
   title = {REFINE: Real-world Exploration of Interactive Feedback and Student Behaviour},
   author = {Fawzi, Fares and Neshaei, Seyed Parsa and Knezevic, Marta and Nazaretsky, Tanya and K{\"a}ser, Tanja},
@@ -13,6 +26,9 @@
   preview = {refine.png},
   abstract = {Formative feedback is central to effective learning, yet providing timely, individualised feedback at scale remains a persistent challenge. While recent work has explored the use of large language models (LLMs) to automate feedback, most existing systems still conceptualise feedback as a static, one-way artifact, offering limited support for interpretation, clarification, or follow-up. In this work, we introduce REFINE, a locally deployable, multi-agent feedback system built on small, open-source LLMs that treats feedback as an interactive process. REFINE combines a pedagogically-grounded feedback generation agent with an LLM-as-a-judge-guided regeneration loop using a human-aligned judge, and a self-reflective tool-calling interactive agent that supports student follow-up questions with context-aware, actionable responses. We evaluate REFINE through controlled experiments and an authentic classroom deployment in an undergraduate computer science course. Automatic evaluations show that judge-guided regeneration significantly improves feedback quality, and that the interactive agent produces efficient, high-quality responses comparable to a state-of-the-art closed-source model. Analysis of real student interactions further reveals distinct engagement patterns and indicates that system-generated feedback systematically steers subsequent student inquiry. Our findings demonstrate the feasibility and effectiveness of multi-agent, tool-augmented feedback systems for scalable, interactive feedback.}
 }
+
+
+
 
 @inproceedings{fawzi2025scribe,
   title = {SCRIBE: Structured Chain Reasoning for Interactive Behaviour Explanations using Tool Calling},
