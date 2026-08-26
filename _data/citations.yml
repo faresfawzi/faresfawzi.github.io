@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-07'
+  last_updated: '2026-08-26'
 papers:
   m9yawpwAAAAJ:2osOgNQ5qMEC:
-    citations: 4
+    citations: 5
     title: 'SCRIBE: Structured Chain Reasoning for Interactive Behaviour Explanations using Tool Calling'
     year: '2025'
   m9yawpwAAAAJ:9yKSN-GCB0IC:
-    citations: 11
+    citations: 12
     title: Towards human-like educational question generation with small language models
     year: '2024'
   m9yawpwAAAAJ:IjCSPb-OGe4C:
@@ -22,7 +22,7 @@ papers:
     title: Small generative language models for educational question generation
     year: '2023'
   m9yawpwAAAAJ:qjMakFHDy7sC:
-    citations: 0
+    citations: 1
     title: 'REFINE: Real-world Exploration of Interactive Feedback and Student Behaviour'
     year: '2026'
   m9yawpwAAAAJ:u-x6o8ySG0sC:
@@ -33,3 +33,7 @@ papers:
     citations: 4
     title: Subcutaneous remote auto-injector for smartwatch monitored anaphylaxis
     year: '2022'
+  m9yawpwAAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: 'PIVOT: Preference-based Intervention Vectors for Pedagogical Tutor Steering'
+    year: '2026'
